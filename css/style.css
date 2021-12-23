@@ -1,0 +1,348 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  line-height: 25px;
+  font-family: 'Lato', sans-serif;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* header starts */
+
+.navbar-toggler {
+    background: 0;
+    border: 0;
+}
+
+.navbar-toggler i {
+    color: #000;
+    font-size: 25px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navigation li a {
+    padding: 0 16px;
+    color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* slider starts */
+
+.slider {
+    position: relative;
+}
+
+.slider .item {
+    height: 95vh;
+}
+
+.slider img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.slider-text h3 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.slider-text h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.slider-text p {
+    font-size: 15px;
+}
+
+.my-button {
+    padding: 5px 30px;
+    background: #00274a;
+    border-radius: 10px;
+}
+
+.my-button a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background: #000;
+    font-size: 30px;
+    border-radius: 100%;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background: #000;
+    font-size: 30px;
+    border-radius: 100%;
+}
+
+/* about section starts */
+
+.section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-heading {
+    color: #191919;
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.section-heading span {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.section-heading span:after {
+    position: absolute;
+    content: "";
+    width: 80px;
+    bottom: 0;
+    right: 0;
+    height: 4px;
+    background: #000;
+}
+
+.about-fitness p {
+    color: #191919;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.about-fitness .my-button {
+    background: #191919;
+}
+
+/* service starts */
+
+#services {
+    background: #00274a;
+    color: #fff;
+}
+
+.service-heading .section-heading {
+    color: #fff;
+}
+
+.section-para {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+/* news section starts */
+
+.news-heading .section-para {
+    color: #191919;
+}
+
+/* trainers section starts */
+
+#trainers{
+  background-image: url("../images/tra_bg.jpg");
+}
+
+.trainers-heading .section-heading {
+    color: #fff;
+}
+
+.trainers-heading .section-heading span:after{
+  background: #fff;
+}
+
+.trainers-img h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.trainers-img h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/* gallery section starts */
+
+#gallery {
+    background: #00274a;
+    margin-top: 50px;
+}
+
+.gallery-img {
+    padding-bottom: 30px;
+}
+
+.gallery-heading .section-heading {
+    color: #fff;
+}
+
+/* form section */
+
+.form-heading {
+    margin-bottom: 25px;
+}
+
+.form-section .form-control {
+    border: 1px solid #0f98f8;
+    border-radius: 10px;
+}
+
+.form-section textarea {
+    min-height: 100px;
+    margin-bottom: 25px;
+}
+
+.map-img {
+    width: 100%;
+    height: 320px;
+}
+
+.map-img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* footer starts here */
+
+.footer-top {
+    background: #00274a;
+}
+
+.footer-section-heading {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.footer-menu {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    list-style: none;
+}
+
+.footer-menu li a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.contact-column i {
+    font-size: 25px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.contact-column p {
+    color: #fff;
+    margin-left: 15px;
+}
+
+.news-latter .form-control{
+  border-radius: 0;
+}
+
+.news-latter .btn {
+    background: #cb8f00;
+    padding: 8px 20px;
+    border-radius: 0;
+}
+
+.news-latter .btn a {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer-bottom {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+/* media query starts */
+
+@media(max-width: 991px){
+  .slider-text h3{
+    font-size: 25px;
+  }
+  .slider-text h1{
+    font-size: 50px;
+  }
+}
+
+@media(max-width: 767px){
+  .slider-text h3{
+    font-size: 20px;
+  }
+  .slider-text h1{
+    font-size: 40px;
+  }
+  .about-fitness, .service-img, .trainers-img, .footer-menu-column, .form-section{
+    margin-bottom: 30px;
+  }
+}
+
+
+@media(max-width: 575px){
+  .contact-column{
+    margin-bottom: 30px;
+  }
+  .slider-text{
+    text-align: center;
+  }
+}
