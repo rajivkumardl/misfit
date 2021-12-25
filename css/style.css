@@ -345,4 +345,7 @@ img {
   .slider-text{
     text-align: center;
   }
+  .owl-nav{
+    display: none;
+  }
 }
